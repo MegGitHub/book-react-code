@@ -6,3 +6,13 @@ buttonEl.textContent = "ボタン";
 const divEl = document.querySelector(".container");
 
 divEl.appendChild(buttonEl);
+
+
+// h1タグの取得
+const h1El = document.getElementById("title");
+
+// bodyタグの取得
+const bodyEl = document.querySelector("body");
+
+// bodyタグは以下から削除
+bodyEl.removeChild(h1El);
