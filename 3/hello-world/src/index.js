@@ -14,5 +14,8 @@ const h1El = document.getElementById("title");
 // bodyタグの取得
 const bodyEl = document.querySelector("body");
 
-// bodyタグは以下から削除
+// bodyタグ配下から削除
 bodyEl.removeChild(h1El);
+
+// bodyタグ配下から子要素を全て削除
+bodyEl.textContent = null;
