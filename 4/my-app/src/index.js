@@ -1,13 +1,12 @@
-
-
 import ReactDOM from "react-dom/client";
+import { Fragment } from "react";
 
 const App = () => {
   return (
-    <div>
+    <Fragment>
       <h1>Hello, React!</h1>
       <p>How are you?</p>
-    </div>
+    </Fragment>
   );
 };
 
