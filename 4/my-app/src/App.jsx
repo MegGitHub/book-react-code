@@ -6,7 +6,7 @@ export const App = () => {
 
     return (
         <>
-            <h1>Hello, React!</h1>
+            <h1 style={{ color: "red" }}>Hello, React!</h1>
             <p>How are you?</p>
             <button onCrick={onClickButton}>ボタン</button>
         </>
