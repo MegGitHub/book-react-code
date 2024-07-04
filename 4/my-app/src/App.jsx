@@ -8,13 +8,18 @@ export const App = () => {
     const contentStyle = {
         color: "blue",
         fontSize: "20px",
-    }
+    };
+    const contentPinkStyle = {
+        color: "pink",
+        fontSize: "20px",
+    };
 
     return (
         <>
             <h1 style={{ color: "red" }}>Hello, React!</h1>
             <p style={contentStyle}>How are you?</p>
-            <button onCrick={onClickButton}>ボタン</button>
+            <p style={contentPinkStyle}>Fine!</p>
+            <button onCrick={onClickButton}>button</button>
         </>
     );
 };
