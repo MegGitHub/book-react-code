@@ -6,17 +6,11 @@ export const App = () => {
         alert("ボタンを押したよ!");
     };
 
-    // cssオブジェクトを定義
-    const contentPinkStyle = {
-        color: "pink",
-        fontSize: "20px",
-    };
-
     return (
         <>
             <h1 style={{ color: "red" }}>Hello, React!</h1>
-            <ColoredMessage />
-            <p style={contentPinkStyle}>Fine!</p>
+            <ColoredMessage color="blue" message="お元気ですか?"/>
+            <ColoredMessage color="pink" message="元気です!"/>
             <button onCrick={onClickButton}>button</button>
         </>
     );
