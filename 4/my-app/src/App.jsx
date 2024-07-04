@@ -4,10 +4,16 @@ export const App = () => {
         alert("ボタンを押したよ!");
     };
 
+    // cssオブジェクトを定義
+    const contentStyle = {
+        color: "blue",
+        fontSize: "20px",
+    }
+
     return (
         <>
             <h1 style={{ color: "red" }}>Hello, React!</h1>
-            <p>How are you?</p>
+            <p style={contentStyle}>How are you?</p>
             <button onCrick={onClickButton}>ボタン</button>
         </>
     );
