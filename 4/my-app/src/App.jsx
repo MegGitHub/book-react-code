@@ -1,7 +1,8 @@
-import { ColoredMessage } from "./components/ColorMessage";
 import { useState } from "react";
+import { ColoredMessage } from "./components/ColorMessage";
 
 export const App = () => {
+    console.log("Hello, React!");
     // Stateの定義
     const [num, setNum] = useState(0);
 
